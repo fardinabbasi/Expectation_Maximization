@@ -1,5 +1,5 @@
 # Expected Maximization
-The EM algorithm will be implemented, and GMM estimation will be performed on an [image dataset](https://github.com/fardinabbasi/Expectation_Maximization/tree/main/Images) containing images of Manchester United and Chelsea football clubs in order to classify them.
+The **EM** algorithm will be implemented, and **GMM** estimation will be performed on an [image dataset](https://github.com/fardinabbasi/Expectation_Maximization/tree/main/Images) containing images of Manchester United and Chelsea football clubs in order to classify them.
 ## Preprocessing
 1. All the labels have been replaced with '**m**' for Manchester United and '**c**' for Chelsea. The dataset consists of 64 images with the label 'c' and 58 images with the label 'm'.
 2. Only the **blue** and **red** channels have been extracted as features. 
