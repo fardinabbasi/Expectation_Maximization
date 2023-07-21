@@ -3,8 +3,9 @@ The EM algorithm will be implemented, and GMM estimation will be performed on an
 ## Preprocessing
 1. All the labels have been replaced with '**m**' for Manchester United and '**c**' for Chelsea. The dataset consists of 64 images with the label 'c' and 58 images with the label 'm'.
 2. Only the **blue** and **red** channels have been extracted as features. 
-3. The dataset is divided into a training set and a test set.
+3. The dataset is divided into a **training set** and a **test set**.
 ## Data Exploration
+<img src="/readme_images/scatter.png">
 The table below provides an analytical description of these features.
 
 | Metric | Red Feature | Blue Feature |
