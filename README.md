@@ -1,5 +1,8 @@
 # Expected Maximization
 The **EM** algorithm will be implemented, and **GMM** estimation will be performed on an [image dataset](https://github.com/fardinabbasi/Expectation_Maximization/tree/main/Images) containing images of Manchester United and Chelsea football clubs in order to classify them.
+```ruby
+from sklearn.mixture import GaussianMixture
+```
 ## Preprocessing
 1. All the labels have been replaced with '**m**' for Manchester United and '**c**' for Chelsea. The dataset consists of 64 images with the label 'c' and 58 images with the label 'm'.
 2. Only the **blue** and **red** channels have been extracted as features. 
@@ -32,7 +35,11 @@ The **contour plot** is shown below.
 
 <img src="/readme_images/contour.png">
 
+## Best n_components
+**AIC (Akaike Information Criterion)** and **BIC (Bayesian Information Criterion)** are statistical measures commonly used for model selection and evaluation in the context of Gaussian Mixture Models (GMMs) and other statistical models.
 
+Both AIC and BIC are based on the principle of parsimony, which favors simpler models that explain the data well. The goal is to strike a **balance** between model complexity and goodness of fit. Lower values of AIC or BIC indicate better model performance. The model with the **lowest** AIC or BIC score is considered the **best choice**.
 
+Here are the AIC and BIC scores for n_components ranging from 1 to 10. Based on these scores, the best n_components for this classification problem, considering the aforementioned features, is 1.
 
 <img src="/readme_images/aic.png">
