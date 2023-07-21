@@ -5,6 +5,8 @@ The **EM** algorithm will be implemented, and **GMM** estimation will be perform
 2. Only the **blue** and **red** channels have been extracted as features. 
 3. The dataset is divided into a **training set** and a **test set**.
 ## Data Exploration
+Please find the scatter plot depicting the data points below.
+
 <img src="/readme_images/scatter.png">
 The table below provides an analytical description of these features.
 
@@ -18,3 +20,19 @@ The table below provides an analytical description of these features.
 | 50% | 90.938226 | 72.883534 |
 | 75% | 109.730649 | 96.326040 |
 | max | 171.014902 | 188.230243 |
+## n_components = 2
+Selecting the right number of Gaussian models is essential for achieving the best results. In this study, the focus is on examining the case where n_components = 2.
+
+| Parameter | First Gaussian Model     | Second Gaussian Model       |
+| ---       | ---                     | ---                         |
+| Mean      | [62.90, 55.94726292] | [104.27, 86.41]  |
+| Covariance| [[209.36, 42.49], [ 42.49, 214.85]] | [[716.86, 177.62], [177.62, 792.93]] |
+
+The **contour plot** is shown below.
+
+<img src="/readme_images/contour.png">
+
+
+
+
+<img src="/readme_images/aic.png">
