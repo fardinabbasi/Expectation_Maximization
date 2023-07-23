@@ -29,7 +29,7 @@ Selecting the right number of Gaussian models is essential for achieving the bes
 | Parameter | First Gaussian Model     | Second Gaussian Model       |
 | ---       | ---                     | ---                         |
 | Mean      | [62.90, 55.94726292] | [104.27, 86.41]  |
-| Covariance| [[209.36, 42.49], [ 42.49, 214.85]] | [[716.86, 177.62], [177.62, 792.93]] |
+| Covariance Matrix | [[209.36, 42.49], [ 42.49, 214.85]] | [[716.86, 177.62], [177.62, 792.93]] |
 
 The **contour plot** is shown below.
 
