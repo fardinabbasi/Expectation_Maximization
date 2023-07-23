@@ -1,4 +1,4 @@
-# Expected Maximization
+# Expectation Maximization
 The **EM** algorithm will be implemented, and **GMM** estimation will be performed on an [image dataset](https://github.com/fardinabbasi/Expectation_Maximization/tree/main/Images) containing images of Manchester United and Chelsea football clubs in order to classify them.
 ```ruby
 from sklearn.mixture import GaussianMixture
