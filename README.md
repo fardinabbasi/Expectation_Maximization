@@ -10,7 +10,7 @@ from sklearn.mixture import GaussianMixture
 ## Data Exploration
 Please find the scatter plot depicting the data points below.
 
-<img src="/readme_images/scatter.png">
+<img src="./doc/scatter.png">
 The table below provides an analytical description of these features.
 
 | Metric | Red Feature | Blue Feature |
@@ -33,7 +33,7 @@ Selecting the right number of Gaussian models is essential for achieving the bes
 
 The **contour plot** is shown below.
 
-<img src="/readme_images/contour.png">
+<img src="./doc/contour.png">
 
 ## Best n_components
 **AIC (Akaike Information Criterion)** and **BIC (Bayesian Information Criterion)** are statistical measures commonly used for model selection and evaluation in the context of Gaussian Mixture Models (GMMs) and other statistical models.
@@ -42,4 +42,10 @@ Both AIC and BIC are based on the principle of parsimony, which favors simpler m
 
 Here are the AIC and BIC scores for n_components ranging from 1 to 10. Based on these scores, the best n_components for this classification problem, considering the aforementioned features, is 1.
 
-<img src="/readme_images/aic.png">
+<img src="./doc/aic.png">
+
+## Course Description
+- **Course**: Machine Learning [ECE 501]
+- **Semester**: Spring 2023
+- **Institution:** [School of Electrical & Computer Engineering](https://ece.ut.ac.ir/en/), [College of Engineering](https://eng.ut.ac.ir/en), [University of Tehran](https://ut.ac.ir/en)
+- **Instructors:** Dr. A. Dehaqani, Dr. Tavassolipour
